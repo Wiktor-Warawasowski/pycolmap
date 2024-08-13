@@ -1,9 +1,9 @@
 import sys
-sys.path.append("..")
+sys.path.append("../..")
 
 import numpy as np
 
-from pycolmap import Quaternion, SceneManager
+from src.pycolmap import Quaternion, SceneManager
 
 
 #-------------------------------------------------------------------------------

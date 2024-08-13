@@ -1,12 +1,12 @@
 import sys
-sys.path.append("..")
+sys.path.append("../..")
 
 import imageio
 import numpy as np
 import os
 
 from plyfile import PlyData, PlyElement
-from pycolmap import SceneManager
+from src.pycolmap import SceneManager
 from scipy.ndimage.interpolation import zoom
 
 

@@ -1,10 +1,9 @@
 import sys
-sys.path.append("..")
+sys.path.append("../..")
 
 import numpy as np
-import os
 
-from pycolmap import SceneManager
+from src.pycolmap import SceneManager
 
 
 #-------------------------------------------------------------------------------
